@@ -2,10 +2,8 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@aoo.get(*/*)
-
+@app.get("/")
 def read_root():
-
-return {"message": "Primeiro projeto!"}
+    return {"message": "Primeiro projeto"}
 
 print("Atualização do Teste!")
