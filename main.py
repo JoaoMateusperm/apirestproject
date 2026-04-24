@@ -6,4 +6,6 @@ app = FastAPI()
 
 def read_root():
 
-return {"message": "Hello From FastAPI!"}
+return {"message": "Primeiro projeto!"}
+
+print("Atualização do Teste!")
