@@ -1,9 +1,2 @@
-from fastapi import FastAPI
-
-app = FastAPI()
-
-@app.get("/")
-def read_root():
-    return {"message": "Primeiro projeto"}
-
-print("Atualização do Teste!")
+nome = input("Digite seu nome: ")
+print(f"Olá {nome}, o ambiente Python está funcionando perfeitamente!")
